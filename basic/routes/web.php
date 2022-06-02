@@ -17,10 +17,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
-Route::get('/about',[DemoController::class, 'Index']);
-Route::get('/contact',[DemoController::class, 'ContactMethod']);
-
-Route::get('/contact', function () {
-    return view('contact');
+Route::controller(DemoController::class)->group(function(){
+    Route::get('/about','Index');
+    Route::get('/contact','ContactMethod');
 });
+
+// Route::get('/contact', function () {
+//     return view('contact');
+// });
