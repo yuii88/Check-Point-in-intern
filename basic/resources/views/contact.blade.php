@@ -7,6 +7,6 @@
     <title>COntact</title>
 </head>
 <body>
-    <h1>This is Contact Page.</h1>
+    <h1>This is Contact Page from Controller.</h1>
 </body>
 </html>
