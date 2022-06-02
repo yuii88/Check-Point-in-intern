@@ -8,6 +8,6 @@
 </head>
 <body>
     <h1>This is about Page form Controller.</h1>
-    <a href="{{ route('contact.page') }}"> Contact </a>
+    <a href="{{ url('/contact') }}"> Contact </a>
 </body>
 </html>
