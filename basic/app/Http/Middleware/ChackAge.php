@@ -16,6 +16,9 @@ class ChackAge
      */
     public function handle(Request $request, Closure $next)
     {
+        if($request->check <=20){
+            return redirect('contact');
+        }
         return $next($request);
     }
 }
