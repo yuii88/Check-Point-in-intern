@@ -7,7 +7,7 @@
     <title>About Page</title>
 </head>
 <body>
-    <h1>This is about Page form Controller.</h1>
+    <h1>This is about Page from Controller.</h1>
     <a href="{{ url('/contact') }}"> Contact </a>
 </body>
 </html>
