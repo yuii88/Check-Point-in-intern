@@ -14,7 +14,7 @@
                     <img class="rounded-circle avatar-xl" 
                     src="{{ (!empty($adminData->profile_image)) ? url('upload/
                     admin_images/'.$adminData->profile_image):url('upload/no_image.jpg') }}" alt="Card image cap">
-        <!--test-->            <img class="rounded-circle avatar-xl" src="{{ url('upload/admin_images/'.$adminData->profile_image) }}">
+        {{-- <!--test-->            <img class="rounded-circle avatar-xl" src="{{ url('upload/admin_images/'.$adminData->profile_image) }}"> --}}
 </center> 
                     <div class="card-body">
                         <h4 class="card-title">Name : {{ $adminData->name }}</h4>
